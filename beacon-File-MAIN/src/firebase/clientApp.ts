@@ -4,12 +4,12 @@ import { getFirestore } from "firebase/firestore";
 import { getStorage } from "firebase/storage";
 
 const firebaseConfig = {
-  apiKey: process.env.NEXT_PUBLIC_FIREBASE_API_KEY,
-  authDomain: process.env.NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN,
-  projectId: process.env.NEXT_PUBLIC_FIREBASE_PROJECT_ID,
-  storageBucket: process.env.NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET,
-  messagingSenderId: process.env.NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID,
-  appId: process.env.NEXT_PUBLIC_FIREBASE_APP_ID,
+  apiKey: "AIzaSyBG1k6KNJRTF33hkqIhP6rj6rkbZGuDBuc",
+  authDomain: "beacon-d2566.firebaseapp.com",
+  projectId: "beacon-d2566",
+  storageBucket: "beacon-d2566.appspot.com",
+  messagingSenderId: "1040463660916",
+  appId: "1:1040463660916:web:2318fd68e69535324b4e21",
 };
 
 // Initialize Firebase for SSR
